@@ -1,0 +1,14 @@
+name: ELPTforDSP
+dependencies:
+- pip
+- pyzmq
+- scipy=1.5.2
+- numpy=1.19.1
+- scikit-learn=0.23.2
+- pandas>=1.1.1
+- python>=3.8.0
+- dill==0.3.3
+- pytorch::pytorch=1.7.0
+- pytorch::ignite=0.4.2
+- conda-forge::optuna=2.3.0  # hyperparameter tuning
+- conda-forge::ray-tune=1.1.0 # hyperparameter tuning

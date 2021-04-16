@@ -1,0 +1,4 @@
+name: classics
+dependencies:
+- statsmodels=0.12.2
+- conda-forge::fbprophet=0.7.1
